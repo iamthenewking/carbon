@@ -4,20 +4,14 @@ import dynamic from 'next/dynamic'
 
 import { COLORS } from '../lib/constants'
 
-const EmailSubscribe = dynamic(() => import('./EmailSubscribe'), {
-  loading: () => null,
-})
+ 
 
 const Footer = () => (
   <footer role="contentinfo" className="mt3">
     
 
     <div className="mt2 mb2">
-      created by{' '}
-      
-        @iamthenewking
-       {' '}
-      ¬
+     @iamthenewking
     </div>
     <style jsx>
       {`
